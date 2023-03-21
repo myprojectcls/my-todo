@@ -1,13 +1,97 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(250, 249, 227);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0px;
+}
+
+.card {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.input-field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input-field button {
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(5, 134, 189);
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.list-field {
+    width: 100%;
+}
+
+.list-field ul {
+    padding: 0px;
+}
+
+.list-field ul li {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.text-field {
+    width: 80%;
+}
+
+.delete-btn {
+    width: 8%;
+    padding: 10px 20px;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    width: 8%;
+    padding: 10px 20px;
+    background-color: green;
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
 }
